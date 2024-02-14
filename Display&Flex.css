@@ -1,0 +1,88 @@
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkslategray;
+  /* border: 10px solid red; */
+  
+}
+#main{
+  height: 50vh;
+  width: 50vw;
+  margin: 1em;
+  /* margin-bottom: 3em; */
+}
+#head{
+  background-color: cornflowerblue;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+#mid{
+  display: flex;
+  /* gap: 10px; */
+  margin: 15px 0px 15px 0px;
+}
+#Article{
+  /* border: 2px solid black; */
+  position: relative;
+  bottom: 50%;
+  left: 40%;
+}
+.poster{
+  background-color: #79cf16;
+  height: 350px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.object{
+  background-color: orange;
+  height: 350px;
+  width: 80%;
+  display: flex; 
+  justify-content: center; 
+  align-items: end;
+  margin-left: 5%;
+}
+
+.object div{
+  margin-left: 4%;
+  margin-right: 2%;
+}
+.object p{
+  padding-left: 25%;
+}
+
+
+#upper{
+  border: 2px solid black;
+}
+.A{
+  height: 100px;
+  width: 100px;
+  background-color: crimson;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.down{
+  background-color: cornflowerblue;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+
+
+
+
